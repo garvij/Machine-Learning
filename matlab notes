@@ -1,0 +1,19 @@
+> toolbox used: optimization toolbox
+
+> linspace 
+- used to create equally spaced vectors 
+- by default 100 elements
+linspace(1,2) - 100 elements including 1 and 2
+linspace(1,2,n) - n points including 1 and 2
+
+> anonymous functions
+name = @ (arglist) expr # no need to create separate m file
+cube = @ (x) x^3 
+circle = @ (x,y) 16*x^2+9*y^2
+
+
+
+******optimization toolbox**********************
+> fminunc
+> optimset
+
