@@ -32,6 +32,13 @@ mu_matrix =  ones(size(X,1),1) * mu;
 sigma_matrix = ones(size(X,1),1) * sigma;
 X_norm = (X - mu_matrix) ./ sigma_matrix;
 
+
+
+
+
+
+
+
 % ============================================================
 
 end
