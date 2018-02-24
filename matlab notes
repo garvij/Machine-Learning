@@ -1,5 +1,9 @@
 > toolbox used: optimization toolbox
 
+******optimization toolbox**********************
+> fminunc
+> optimset
+
 > linspace 
 - used to create equally spaced vectors 
 - by default 100 elements
@@ -12,8 +16,12 @@ cube = @ (x) x^3
 circle = @ (x,y) 16*x^2+9*y^2
 
 
+imp functions
+sum(): sums over rows for each column
+mean(): mean over rows for each column
+var(): variance over rows for each column
 
-******optimization toolbox**********************
-> fminunc
-> optimset
-
+matlab equality test between a vector and a single number
+%examples!
+tp = sum((cvPredictions ==1) & (yval == 1));
+fp = sum((cvPredictions ==1) & (yval == 0));
